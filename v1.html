@@ -1,12 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="v1.css">
-</head>
-<body>
-    <h1>Helooo</h1>
-</body>
-</html>
+  <title>firebase form auth</title>
+  <link rel="stylesheet" href="v1.css">
+    <script type="module" src="v1.js"></script>
+  </head>
+  <body id="bod">
+    <div class="center-box" id="login-div">
+      <h2 >Login</h2>
+      <input type="email" id="login-email" class="text-field" name="login-email" placeholder="Email" required/><br>
+      <input type="password" id="login-password" class="text-field" name="login-password" placeholder="Password" required/><br>
+      <button id="login-btn" class="btn-style">Login</button><br>
+      <button id="reg-btn" class="an-btn">REGISTER</button>
+   </div>
+   
+   <img id="img" src="car_rental_img.jpg" alt="car rental" width="410">
+
+   <div class="center-box" id="register-div">
+     <h2>Register</h2>
+     <input type="email" id="register-email" class="text-field" name="register-email" placeholder="Email" required/><br>
+     <input type="password" id="register-password" class="text-field" name="register-password" placeholder="Password" required/><br>
+    <button id="register-btn" class="btn-style">Register</button><br>
+     <button id="log-btn" class="an-btn">have an account? LOGIN</button>
+  </div>
+
+<div id="result-box">
+  <h3 id="result"></h3><br>
+     <button id="log-out-btn" class="btn-style">LOGIN OUT</button>
+</div>
+
+  </body>
+  </html>
